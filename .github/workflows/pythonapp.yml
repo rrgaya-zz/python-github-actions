@@ -17,4 +17,5 @@ jobs:
       run: |
         pytest -vv --cov
     - name: Coveralls
-      run: coverall
+      run: |
+        coverall
