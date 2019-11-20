@@ -35,5 +35,4 @@ jobs:
       run: |
         pip install pytest
         pytest -vv --cov
-    - name: Coveralls
-      run: coveralls
+        coveralls
